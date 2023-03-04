@@ -4,9 +4,9 @@ PY=python3
 	$(PY) -m venv .env
 
 spam: .env spam.cpp setup.py
-	.env/bin/python3 setup.py build
+	.env/bin/python setup.py build
 
 .PHONY: install
 install: spam
-	.env/bin/python3 setup.py install	
+	.env/bin/python setup.py install	
 
