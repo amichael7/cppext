@@ -9,6 +9,7 @@ Adapted from https://gist.github.com/sbmueller/d645f32e8413d9799c7d087f77dcfa7b
 1. __Install the package in a virtual env__
 ```bash
 make
+make install
 ```
 
 2. __Start the Python interpreter__
